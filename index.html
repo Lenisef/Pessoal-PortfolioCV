@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+  <head>
+    <title>Portfólio Pessoal (CV Online) Lenise F Silva (RU 1718643)</title>
+    <meta charset="utf-8">
+	
+	<CSS>
+    <link href="estilo.css" rel="stylesheet" />
+  </head> 
+  
+<body>
+    <nav class="tab" role="tab">        
+        <button class="tablink" onclick="mudaTab(event, 'sobre');" title="Sobre mim">Sobre mim</button>
+        <button class="tablink" onclick="mudaTab(event, 'formacao');" title="Formação">Formação</button>
+        <button class="tablink" onclick="mudaTab(event, 'portfolio');" title="Portfólio">Portfólio</button>
+        <button class="tablink" onclick="mudaTab(event, 'contato');" title="Contato">Contato</button>
+    </nav>
+
+    <main>
+        <header>
+            <h1>Portfólio pessoal: CV Online</h1>
+            <h2>Lenise F Silva</h2>
+        </header>
+
+        <article class="tablink" id="sobre">
+            <section>
+                <h3>Sobre</h3>
+            </section>            
+
+            <section>
+                <p>Lenise Fischer da Silva - RU 1718643</p>
+                <p>Estou cursando Análise e Desenvolvimento de Sistemas</p>
+				<p>Tenho 36 anos</p>
+				<p>Estou na minha segunda graduação</p>          
+            </section>
+        </article>
+
+        <article class="tablink" id="formacao">
+            <section>
+                <h3>Formação</h3>
+				<p>Bacharel em Fisioterapia - formada em 2012</p>
+				<p>Tecnologo em Análise e Desenvolvimento de Sistemas - cursando</p>
+            </section>
+        </article>
+
+        <article class="tablink" id="portfolio">
+            <section>
+                <h3>Portfólio</h3>
+				<p><a class="link" href="https://www.linkedin.com/in/lenise-fischer-65aa96161/" target="_blank">LinkedIn</a></p>
+                <p><a class="link" href="https://github.com/Lenisef" target="_blank">GitHub</a></p>
+            </section>
+        </article>
+			
+		<article class="tablink" id="contato">
+    <section>
+        <h3>Contato</h3>
+        <form action="#" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</article>
